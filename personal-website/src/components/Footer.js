@@ -19,7 +19,7 @@ function Footer() {
           <GitHubIcon />
         </a>
       </div>
-      <p className="copyright">&copy; 2022 jonathanzhou.ca</p>
+      <p className="copyright"> &copy; 2022 Jonathan Zhou</p>
     </div>
   );
 }

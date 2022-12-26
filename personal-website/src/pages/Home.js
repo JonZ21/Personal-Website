@@ -3,7 +3,11 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import EmailIcon from "@mui/icons-material/Email";
 import { Link } from "react-router-dom";
+import ProjectItem from "../components/ProjectItem";
 import "../styles/Home.css";
+import "../styles/Projects.css";
+//Images for Current Projects
+import robotArm from "../assets/robotArm.jpg";
 
 function Home() {
   return (
@@ -11,7 +15,7 @@ function Home() {
       <div className="about">
         <h2>Hey, I'm Jon</h2>
         <div className="prompt">
-          <p>A Mechatronics Engineering Student and Entrepreneur </p>
+          <p>Mechatronics Student and Robotics Entrepreneur </p>
           <a href="https://www.linkedin.com/in/jonathanzhou21/">
             <LinkedInIcon />
           </a>
@@ -25,26 +29,23 @@ function Home() {
         </div>
       </div>
       <div className="currentProjects">
-        <div className="seeMore">
-          <Link to="/Projects">See more</Link>
+        <h1>Currently Working On</h1>
+        <div className="projectList">
+          <ProjectItem name="VEX Robotics TM Hack" image={robotArm} id={1} />
+          <ProjectItem name="VEX Robotics TM Hack" image={robotArm} id={1} />
+          <ProjectItem name="VEX Robotics TM Hack" image={robotArm} id={1} />
         </div>
-      </div>
-      <div className="skills">
-        <h1>Skills</h1>
-        <ol className="list">
-          <li className="item">
-            <h2>Front-End</h2>
-            <span>ReactJS, HTML, CSS</span>
-          </li>
-          <li className="item">
-            <h2>Back-End</h2>
-            <span>NodeJS, ExpressJS, MySQL, MongoDB</span>
-          </li>
-          <li className="item">
-            <h2>Languages</h2>
-            <span>C++, Java, Python, Javascript</span>
-          </li>
-        </ol>
+        <div className="seeMore">
+          <Link
+            to="/Projects"
+            useEffect
+            onClick={() => {
+              window.scrollTo(0, 0);
+            }}
+          >
+            See more
+          </Link>
+        </div>
       </div>
     </div>
   );

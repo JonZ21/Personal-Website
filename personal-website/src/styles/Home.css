@@ -19,7 +19,11 @@
   background-color: #21325e;
   color: #f0f0f0;
 }
-
+.projectList {
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
 .about h2 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 80px;
@@ -37,7 +41,7 @@
   color: white;
 }
 
-.skills {
+.bio {
   font-size: 35px;
   width: 100%;
   display: flex;
@@ -46,17 +50,27 @@
   align-items: center;
 }
 
-.skills h1 {
+.bio h1 {
   color: #3e497a;
 }
 
-.skills .list {
-  list-style: none;
-  width: 60%;
+.bio p {
+  width: 40%;
+  font-size: 30px;
 }
 
-.list span {
-  font-size: 20px;
+.currentProjects h1 {
+  font-size: 60px;
+  text-align: center;
+}
+.seeMore {
+  text-align: center;
+  font-size: 30px;
+  color: #21325e;
+}
+
+.seeMore:visited {
+  color: black;
 }
 
 @media only screen and (max-width: 600px) {
@@ -79,5 +93,20 @@
 
   .skills h2 {
     font-size: 30px;
+  }
+  .bio p {
+    margin-top: 10px;
+    font-size: 20px;
+    width: 80%;
+  }
+  .currentProjects h1 {
+    font-size: 30px;
+  }
+  .bio h1 {
+    font-size: 30px;
+  }
+  .seeMore {
+    margin-bottom: 30px;
+    font-size: 20px;
   }
 }
