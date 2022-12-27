@@ -18,11 +18,17 @@
 }
 
 .project p {
-  font-size: 40px;
+  font-size: 30px;
   color: #3e497a;
+  margin-bottom: 0.1%;
 }
 
 .project svg {
+  margin-top: 60%;
   font-size: 60px;
   color: #3e497a;
+}
+
+.description {
+  width: 50%;
 }

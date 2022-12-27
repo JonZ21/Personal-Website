@@ -7,7 +7,8 @@ import ProjectItem from "../components/ProjectItem";
 import "../styles/Home.css";
 import "../styles/Projects.css";
 //Images for Current Projects
-import robotArm from "../assets/robotArm.jpg";
+import robotArm from "../assets/robotarm.png";
+import tmHack from "../assets/tmhack.png";
 
 function Home() {
   return (
@@ -31,7 +32,7 @@ function Home() {
       <div className="currentProjects">
         <h1>Currently Working On</h1>
         <div className="projectList">
-          <ProjectItem name="VEX Robotics TM Hack" image={robotArm} id={1} />
+          <ProjectItem name="VEX Robotics TM Hack" image={tmHack} id={1} />
           <ProjectItem name="VEX Robotics TM Hack" image={robotArm} id={1} />
           <ProjectItem name="VEX Robotics TM Hack" image={robotArm} id={1} />
         </div>

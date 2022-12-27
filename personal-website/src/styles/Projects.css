@@ -6,6 +6,11 @@
   align-items: center;
   flex-direction: column;
 }
+.projects h1 {
+  color: #3e497a;
+  font-size: 60px;
+  text-align: center;
+}
 .projects .projectTitle {
   text-align: center;
   color: #3e497a;
