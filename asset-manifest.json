@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/JonZ21.github.io/static/css/main.8004a593.css",
+    "main.js": "/JonZ21.github.io/static/js/main.64e0601b.js",
+    "static/js/787.5809834d.chunk.js": "/JonZ21.github.io/static/js/787.5809834d.chunk.js",
+    "static/media/robotarm.png": "/JonZ21.github.io/static/media/robotarm.b73e2d32e4acdb0e2433.png",
+    "static/media/printer.png": "/JonZ21.github.io/static/media/printer.05d5b621e4180fa006b9.png",
+    "static/media/tmhack.png": "/JonZ21.github.io/static/media/tmhack.812c2a7d373b56ba260c.png",
+    "static/media/moviereview.png": "/JonZ21.github.io/static/media/moviereview.dd76da91173dfc7c06d8.png",
+    "static/media/card.png": "/JonZ21.github.io/static/media/card.9ddbd505c7536eec722a.png",
+    "static/media/stitcher.png": "/JonZ21.github.io/static/media/stitcher.2b98c80c4374a0fe5ebf.png",
+    "index.html": "/JonZ21.github.io/index.html",
+    "main.8004a593.css.map": "/JonZ21.github.io/static/css/main.8004a593.css.map",
+    "main.64e0601b.js.map": "/JonZ21.github.io/static/js/main.64e0601b.js.map",
+    "787.5809834d.chunk.js.map": "/JonZ21.github.io/static/js/787.5809834d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8004a593.css",
+    "static/js/main.64e0601b.js"
+  ]
+}
