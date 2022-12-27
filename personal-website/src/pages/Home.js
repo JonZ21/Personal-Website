@@ -6,9 +6,11 @@ import { Link } from "react-router-dom";
 import ProjectItem from "../components/ProjectItem";
 import "../styles/Home.css";
 import "../styles/Projects.css";
+
 //Images for Current Projects
-import robotArm from "../assets/robotarm.png";
+import stitcher from "../assets/stitcher.png";
 import tmHack from "../assets/tmhack.png";
+import card from "../assets/card.png";
 
 function Home() {
   return (
@@ -32,9 +34,9 @@ function Home() {
       <div className="currentProjects">
         <h1>Currently Working On</h1>
         <div className="projectList">
-          <ProjectItem name="VEX Robotics TM Hack" image={tmHack} id={1} />
-          <ProjectItem name="VEX Robotics TM Hack" image={robotArm} id={1} />
-          <ProjectItem name="VEX Robotics TM Hack" image={robotArm} id={1} />
+          <ProjectItem name="VEX Robotics TM Hack" image={tmHack} id={0} />
+          <ProjectItem name="Family Photo Stitcher" image={stitcher} id={1} />
+          <ProjectItem name="NFC LinkedIN Card" image={card} id={2} />
         </div>
         <div className="seeMore">
           <Link
