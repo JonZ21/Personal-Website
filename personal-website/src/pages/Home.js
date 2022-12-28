@@ -16,7 +16,7 @@ function Home() {
   return (
     <div className="home">
       <div className="about">
-        <h2>Hey, I'm Jon</h2>
+        <h2>Hey, I'm Jon!</h2>
         <div className="prompt">
           <p>Mechatronics Student and Robotics Entrepreneur </p>
           <a href="https://www.linkedin.com/in/jonathanzhou21/">
