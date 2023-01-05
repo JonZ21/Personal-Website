@@ -2,7 +2,7 @@
   width: 100%;
   align-items: center;
   font-family: "Arial", sans-serif;
-  color: #3e497a;
+  color: #171717;
 }
 .seeMore {
   color: black;
@@ -16,8 +16,11 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #21325e;
+  background-color: #141414;
   color: #f0f0f0;
+}
+.hero {
+  width: 50%;
 }
 .projectList {
   align-items: center;
